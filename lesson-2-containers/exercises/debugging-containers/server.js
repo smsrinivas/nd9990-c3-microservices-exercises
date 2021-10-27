@@ -7,11 +7,11 @@ function getDate() {
 }
 
 async function main() {
-  while(true) {
-    try  {
-      console.log(getData());
+  while (true) {
+    try {
+      console.log(getDate());
     }
-    catch(e) {
+    catch (e) {
       console.log(e);
     }
     finally {
